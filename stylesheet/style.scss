@@ -98,6 +98,7 @@
       i{
         color: var(--color-white) !important;
       }
+    }
     .control{
       padding: 1rem;
       cursor: pointer;
@@ -111,9 +112,9 @@
       margin: .7rem 0;
       box-shadow: var(--box-shadow-1);
       i{
-        font-size: large;
-        color: var(--color-grey-2);
-        pointer-events: none;
+          font-size: 1.2rem;
+          color: var(--color-grey-2);
+          pointer-events: none;
       }
     }
   }

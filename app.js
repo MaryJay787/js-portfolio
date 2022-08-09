@@ -17,9 +17,26 @@ function PageTurner(){
 
      // Sections Active
     allSections[0].addEventListener('click', (e) => {
-        console.log(e.target);
+        // console.log(allSections[0].addEventListener('click', (e)));
+        const id = e.target.dataset.id;
+        // console.log(id);
+        if(id){
+            // removed selected section from the other btns
+            sectBtns.forEach((btn) => {
+                btn.classList.remove('active')
+            })
+            e.target.classList.add('active')
+
+            //hide other sections
+            sections.forEach((section) => {
+                section.classList.remove('active')
+            })
+
+            const element = document.getElementById(id);
+            element.classList.add('active');
+        }
     })
-    // console.log(allSections[0].addEventListener('click', (e)));
+    
     
 }
 

@@ -65,21 +65,25 @@ section {
 .sect2 {
   display: none;
   transform: translateY(0) scale(1);
+  background-color: beige;
 }
 
 .sect3 {
   display: none;
   transform: translateY(0) scale(1);
+  background-color: blueviolet;
 }
 
 .sect4 {
   display: none;
   transform: translateY(0) scale(1);
+  background-color: brown;
 }
 
 .sect5 {
   display: none;
   transform: translateY(0) scale(1);
+  background-color: aqua;
 }
 
 .controlls {

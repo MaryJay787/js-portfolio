@@ -15,6 +15,12 @@ function PageTurner(){
         })
      }
 
+     // Sections Active
+    allSections[0].addEventListener('click', (e) => {
+        console.log(e.target);
+    })
+    // console.log(allSections[0].addEventListener('click', (e)));
+    
 }
 
 PageTurner();

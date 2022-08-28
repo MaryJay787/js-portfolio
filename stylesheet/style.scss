@@ -214,7 +214,7 @@
           box-shadow: 1px 4px 15px var(--color-black) ;
         }
         .about-text{
-          padding: 1.5rem;
+          padding: .5rem;
           display: flex;
           flex-direction: column;
           .lg-text{
@@ -223,7 +223,7 @@
             color: var(--color-secondary);
           }
           .sm-text{
-            padding-left: .5rem;
+            padding-left: 3rem;
             position: relative;
             text-transform: uppercase;
             font-size: 1rem;
@@ -245,10 +245,8 @@
     }
 
     .left-about{
-      padding-right: 5rem;
       p{
         line-height: 2rem;
-        padding: 1rem;
         color: var(--color-grey-1);
       }
       h4{

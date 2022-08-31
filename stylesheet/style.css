@@ -325,6 +325,7 @@ section {
 }
 .stat-title::before {
   content: "";
+  position: absolute;
   left: 50%;
   top: 0;
   width: 40%;
@@ -426,6 +427,7 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 .ports .port-item .hover-items .icons {
   display: flex;

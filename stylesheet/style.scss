@@ -323,6 +323,7 @@
   position: relative;
   &::before{
     content: '';
+    position: absolute;
     left: 50%;
     top: 0;
     width: 40%;
@@ -423,6 +424,7 @@
         font-size: 1.5rem;
         color: var(--color-white);
         margin-bottom: 1.5rem;
+        text-align: center;
       }
       .icons{
         display: flex;

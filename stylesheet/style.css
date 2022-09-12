@@ -21,6 +21,20 @@
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
+.light-mode {
+  --color-primary: #FFFFFF;
+  --color-secondary: #a0c9f0;
+  --color-white: #a7b2c0;
+  --color-black: #000;
+  --color-grey-0: #f8f8f8;
+  --color-grey-1: #a7b2c0;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #454e56;
+  --color-grey-6: #454e56;
+}
+
 body {
   background-color: var(--color-primary);
   font-family: "Playfair Display", serif;
